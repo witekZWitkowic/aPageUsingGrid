@@ -1,0 +1,23 @@
+@import "./variables";
+
+/* ----------------- FOOTER SECTION ------------------ */
+
+
+.footer__container {
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $background-color_4;
+}
+.footer__social__container {
+	margin: 0 250px;
+	display: flex;
+	align-items: center;
+}
+.footer__logo__container {
+	margin: 0 250px;
+}
+.footer__social__images {
+	margin: 0 10px;
+}
