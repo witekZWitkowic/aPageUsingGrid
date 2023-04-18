@@ -1617,12 +1617,6 @@ html, body {
   }
   .collapse {
     position: static;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .show {
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
   }
   .pictures__container {
     grid-template-columns: repeat(2, 1fr);
