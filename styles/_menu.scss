@@ -45,11 +45,11 @@
 	&:hover {
 		.nav__lang--ul{
 		max-height: 200%;
-		transition: all 0.3s;
+		transition:  0.3s;
 		}
 		.nav__arrow-img {
 			transform: rotate(-180deg);
-			transition: ease-in-out 0.3s;
+			transition:  0.3s;
 		}
 	}
 }
