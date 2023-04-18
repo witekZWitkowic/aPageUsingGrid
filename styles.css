@@ -1619,7 +1619,7 @@ html, body {
     position: absolute;
     width: 100%;
     top: 104px;
-    height: 544px !important;
+    height: 600px !important;
     background-color: rgba(255, 255, 255, 0.8);
     -webkit-backdrop-filter: blur(8px);
             backdrop-filter: blur(8px);
@@ -1700,12 +1700,24 @@ html, body {
     width: 348px;
     height: 161px;
   }
+  .container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .contact__rodo {
     width: 218px;
   }
   .contact__submit {
     width: 248px;
     margin: 25px;
+  }
+  .nav__links {
+    margin-top: 20px;
   }
   .newsletter__section {
     margin: 0;
@@ -1729,6 +1741,14 @@ html, body {
   }
   .footer__logo__container {
     margin: 0 100px;
+  }
+  .logo_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
   }
 }
 /* --------------- WIDTH 425px ----------------- */
